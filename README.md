@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Github URL: [Github](https://your-solution-url.com)
-- Netlify URL: [Netlify](https://your-live-site-url.com)
+- Github URL: [Github](https://github.com/itadori-kun/social-proof-section.git)
+- Netlify URL: [Netlify](https://social-proof-section-preview.netlify.app/)
 
 ## My process
 
