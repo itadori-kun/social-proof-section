@@ -1,78 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Social proof section</title>
+  </head>
+  <body>
+    <main>
+       <section>
+        <div class="container">
+          <div class="mini-container px">
+            <h1>10,000+ of our users love our products.</h1>
+            <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+          </div>
+          <div class="mini-container">
+            <div class="rating">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <div>
+              <h3>Rated 5 Stars in Reviews</h3></div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
-  <title>Frontend Mentor | Interactive rating component</title>
-</head>
-
-<body>
-  <main>
-    <section id="main">
-    <article>
-      <!-- icon area -->
-      <div class="img">
-        <img src="/images/icon-star.svg" alt="">
-      </div>
-
-      <!-- heading area -->
-      <div class="heading">
-        <h1>How did we do?</h1>
-      </div>
-
-      <!-- paragraph area -->
-      <div class="paragraph">
-        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      </div>
-
-      <!-- rating area -->
-      <div class="rating">
-          <button value="1" class="btnSelect">1</button>
-          <button value="2" class="btnSelect">2</button>
-          <button value="3" class="btnSelect">3</button>
-          <button value="4" class="btnSelect">4</button>
-          <button value="5" class="btnSelect">5</button>
-      </div>
-
-      <!-- submit area -->
-      <div class="btn"><button type="submit" id="btn">Submit</button></div>
-    </article>
-
-    <!-- author area -->
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Godwin</a>.
-    </div>
-    </section>
-
-
-      <!-- Thank you state start -->
-    <section id="hid">
-      <article id="thank-you" class="article-thank-you">
-        <!-- icon area -->
-        <div class="img img-thank-you">
-          <img src="/images/illustration-thank-you.svg" alt="illustration-thank-you">
+            </div>
+            <div class="rating m-l1">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <div>
+                <h3>Rated 5 Stars in Report Guru</h3>
+              </div>
+            </div>
+            <div class="rating m-l2">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <img src="images/icon-star.svg" alt="">
+              <div>
+                <h3>Rated 5 Stars in BestTech</h3>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="paragraph p2">
-          <p>You selected <span id="num"></span> out of 5</p>
+        <div class="testimonial">
+          <article>
+            <div class="details">
+              <img src="images/image-colton.jpg" alt="man wearing a red and black checkers">
+              <h2>Colten Smith
+              <span>Verified Buyer</span></h2>
+            </div>
+            <p>"We needed the same printed design as the one we had ordered a week prior.
+              Not only did they find the original order, but we also received it in time.
+              Excellent!"</p>
+          </article>
+          <article class="mt1">
+            <div class="details">
+            <img src="images/image-irene.jpg" alt="a blonde woman wearing a black shirt">
+            <h2>Irene Roberts
+            <span>Verified Buyer</span></h2>
+            </div>
+            <p>"Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."</p>
+          </article>
+          <article class="mt2">
+            <div class="details">
+            <img src="images/image-anne.jpg" alt="woman standing with flowers">
+            <h2>Anne Wallace
+            <span>Verified Buyer</span></h2>
+            </div>
+            <p>"Put an order with this company and can only praise them for the very high
+              standard. Will definitely use them again and recommend them to everyone!"</p>
+          </article>
         </div>
-        <!-- heading area --> 
-        <div class="heading">
-          <h1>Thank you!</h1>
-        </div>
+      </section>
+    </main>
 
-        <!-- paragraph area -->
-        <div class="paragraph p3">
-          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
-            touch!</p>
-        </div>
-      </article>
-  </main>
-<script src="script.js"></script>
-</body>
-
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Godwin</a>.
+    </footer>
+  </body>
 </html>
